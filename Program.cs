@@ -26,7 +26,9 @@ namespace AccuRev2Git
 			var workingDir = args[2];
 			var startingTran = (args.Length > 3 ? Int32.Parse(args[3]) : 0);
 			if (string.IsNullOrEmpty(workingDir))
-				throw new ApplicationException(string.Format("No value specified for working directory."));
+				throw new ApplicationException("No value specified for working directory.");
+			if (!Directory.Exists(workingDir))
+				throw new ApplicationException(string.Format("Directory specified ({0}) does not exist.", workingDir));
 
 			loadUsers();
 			loadDepotFromScratch(depotName, streamName, workingDir, startingTran);

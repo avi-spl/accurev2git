@@ -10,3 +10,7 @@ Wayne|Wayne Molena|wayne.molena@avispl.com
 Glen|Glen Lamison|glen.lamison@avispl.com
 Leslie|Leslie Johnson|leslie.johnson@avispl.com
 Jennifer|Jennifer Reitsky|jennifer.reitsky@avispl.com
+Adam|Adam Weeden|adam.weeden@avispl.com
+Cory|Cory Lauscher|cory.lauscher@avispl.com
+Robyn|Robyn Fitch|roby.fitch@avispl.com
+Sarah|Sarah Powell|sarah.powell@avispl.com
